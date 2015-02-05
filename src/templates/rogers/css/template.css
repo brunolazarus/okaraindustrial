@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px){
+    #headerImage{
+        display: none;
+    }
+    
+    #pageBackground{
+        left: 0 !important;
+        top: 50px;
+        width: 100% !important;
+    }
+}
+
+#pageBackground{
+    left: -50%;
+    opacity: 0.08;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+#headerImage{
+    text-align: center;
+}
+#headerImage img{
+    max-height: 200px;
+}
+
+.negrito{
+	font-weight: bold;
+}
+
+.navbarLogoAnchor{
+    text-transform: uppercase;
+}
+
+.navbar-scardt {
+    background-color: #1B3041;
+    border-color: #1B3041;
+}

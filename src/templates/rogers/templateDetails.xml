@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>rogers</name>
+	<creationDate>5/15/2012</creationDate>
+	<author>Rogers Guedes Feitosa Teixeira</author>
+	<authorEmail>rogerguedes.ft@gmail.com</authorEmail>
+	<authorUrl>http://www.ifce.edu.br/gdeste</authorUrl>
+	<copyright>Copyright (C), todos os direitos reservados.</copyright>
+	<license>Propertary, Uso exclusivo do GDESTE</license>
+	<version>1.0</version>
+	<description>Template feito pelo GDESTE</description>
+	<files>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>top</position>
+		<position>breadcrumb</position>
+		<position>right</position>
+		<position>left</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_rogers.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_ROGERS_LOGO_LABEL"
+					description="TPL_ROGERS_LOGO_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
