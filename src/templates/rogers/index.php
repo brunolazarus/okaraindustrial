@@ -48,12 +48,12 @@ if ($this->countModules('right')){
         <jdoc:include type="message" />
         -->
         <!-- Incluindo a Logo do cabeçalho -->
-        <img id="pageBackground" src="<?php echo $baseURL . $this->params->get('logoFile'); ?>" alt="<?php echo $sitename;?>"/>
-        <?php if(isset($logo)):?>
+		<?php if(isset($logo)):?>
             <div class="container" id="headerImage">
                 <img src="<?php echo $baseURL . $this->params->get('logoFile'); ?>" alt="<?php echo $sitename;?>"/>
             </div>
         <?php endif;?>
+       
         <?php if ($this->countModules('top')): ?>
             <nav class="navbar navbar-inverse navbar-default navbar-static-top navbar-scardt">
                 <div class="container">
